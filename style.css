@@ -216,5 +216,5 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
     border: 1px solid #141414;
     font-size: 20px;
     position: relative;
-    text-align: center;
+    text-align: center; !important
 }

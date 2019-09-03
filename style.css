@@ -14,8 +14,9 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 .custom {
 	background: #000;
 	width: 400px;
-	transition: opacity 1s;
+	transition: opacity 2s;
 	padding: 10px;
+	text-align: center;
 
 	font-family: Abel;
 

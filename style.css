@@ -148,6 +148,10 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	height: 0;
 }
 
+.credits {
+	opacity: 0 !important;
+}
+
 /*
 * Positioning
 */

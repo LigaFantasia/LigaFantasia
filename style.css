@@ -132,6 +132,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 }
 .custom .options li .text {
 	line-height: 1.3;
+	text-align:center;
 }
 
 /*
@@ -146,19 +147,6 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	opacity: 0;
 	height: 0;
 }
-.custom .credits {
-	text-align: center;
-	opacity: 1;
-	transition: all 1s;
-	height: 25px;
-	clear: both;
-	overflow: hidden;
-}
-.custom.active .credits, .custom.removing .credits {
-	height: 0;
-	opacity: 0;
-}
-
 
 /*
 * Positioning

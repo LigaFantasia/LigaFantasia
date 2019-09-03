@@ -6,7 +6,7 @@ On your https://poll.ma.pe/overlay/<id>/ URL add ?customCss=https://example.com/
 Please keep the link to https://poll.ma.pe visible for a short period of time.
 */
 
-@import url(https://fonts.googleapis.com/css?family=Good+times);
+@import url(https://fonts.googleapis.com/css?family=Abel);
 
 /*
 * "custom" refers to the theme assigned to the poll element
@@ -203,4 +203,18 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 .custom.bottomRight {
 	bottom: 20px;
 	right: 20px;
+}
+
+.lol .options li.question {
+    padding: 10px 20px;
+    white-space: normal;
+    background: #000;
+    clear: both;
+    line-height: 1.3;
+    box-shadow: 0 1px 0 rgba(255,255,255,.1) inset, 0 0 1px rgba(0,0,0,.7);
+    background: rgba(0,0,0,.5);
+    border: 1px solid #141414;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
 }
